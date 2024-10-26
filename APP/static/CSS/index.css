@@ -1,0 +1,137 @@
+.box1 {
+    display: flex;
+    margin: 200px auto;
+}
+
+.box1 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.box1 .left .title {
+    color: purple;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.box1 .left .info {
+    font-size: 18px;
+}
+
+.box1 .left .get_order .price {
+    font-size: 36px;
+    color: purple;
+    font-weight: 400;
+}
+
+.box1 .left .get_order button {
+    width: 100px;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    background: purple;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.box1 .right video {
+    width: 600px;
+    height: 400px;
+    background: #fff;
+}
+
+.box2 {
+    width: 1200px;
+    height: 200px;
+}
+
+.box2 .title {
+    font-size: 60px;
+    color: purple;
+    font-weight: 600;
+    text-align: center;
+    line-height: 200px;
+}
+
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.box3 .item {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: purple;
+    margin: 30px;
+}
+
+.box4 {
+    display: flex;
+    padding: 40px;
+    margin: 200px 0;
+}
+
+.box4 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+.box4 .left .title {
+    color: purple;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.box4 .left .info {
+    font-size: 18px;
+}
+
+.box4 .left button {
+    width: 100px;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    background: purple;
+    border: 0;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.box4 .right {
+    width: 400px;
+    height: 270px;
+    background: purple;
+}
+
+.box5 .content {
+    display: flex;
+    padding: 0 40px;
+}
+
+.box5 .content>div {
+    width: 400px;
+    height: 250px;
+}
+
+.box5 .content .title {
+    color: purple;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.box5 .foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}

@@ -1,0 +1,48 @@
+body {
+    background: #eee;
+}
+
+.login {
+    width: 400px;
+    margin: 200px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.login .title {
+    font-size: 30px;
+    color: purple;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.login button {
+    width: 400px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    background: purple;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.login a {
+    color: #666;
+    text-decoration: none;
+    text-align: right;
+}

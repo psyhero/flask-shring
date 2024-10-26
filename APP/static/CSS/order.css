@@ -1,0 +1,49 @@
+.content_order {
+    width: 400px;
+    padding: 40px;
+    background: #fff;
+    margin: 200px auto;
+}
+
+.content_order .title {
+    font-size: 32px;
+    color: purple;
+    font-weight: 500;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.content_order form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_order form span.price {
+    font-size: 30px;
+    color: purple;
+    font-weight: 400;
+}
+
+.content_order form input {
+    width: 400px;
+    height: 24px;
+    margin: 10px 0;
+}
+
+.content_order form button {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 7px;
+    background: purple;
+    border: 0;
+    margin-top: 20px;
+}
+
+.content_order form a {
+    color: purple;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 20px;
+}

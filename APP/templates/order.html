@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+下单
+{% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/order.css')}}">
+{% endblock head %}
+
+{% block content %}
+<div class="content_order">
+    <p class="title">新增订单</p>
+    <form action="" method="post">
+        <label for="">视频链接:</label>
+        <input type="url" name="url" required>
+        <label for="">播放量:</label>
+        <input type="number" name="amount" value=100>
+        <div class="price">
+            <span>￥</span>
+            <span class="price">1</span>
+        </div>
+        {% if account %}
+        <button type="submit">去支付</button>
+        {% else %}
+        <a href="/login">请登录</a>
+        {% endif %}
+    </form>
+</div>
+
+
+{% endblock content %}
+
+{% block script %}
+<script src="{{url_for('static',filename='js/order.js')}}"></script>
+{% endblock script %}

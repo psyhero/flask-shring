@@ -1,0 +1,53 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background: #eee;
+    margin: 0;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navitems {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.navbar .logo a {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.navbar .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .nav ul {
+    display: flex;
+}
+
+.navbar .nav ul li {
+    list-style: none;
+}
+
+.navbar .nav ul li a {
+    color: purple;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar .nav ul li a:hover {
+    color: #000;
+}

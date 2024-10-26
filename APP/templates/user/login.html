@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/login.css') }}">
+</head>
+
+<body>
+    <div class="login">
+        <p class="title">登录</p>
+        <form method="post">
+            {% if email %}
+            <input type="text" name="account" placeholder="账号/邮箱" value="{{email}}">
+            {% else %}
+            <input type="text" name="account" placeholder="账号/邮箱" value="{{account}}" autofocus>
+            {% endif %}
+            <input type="password" name="password" placeholder="密码">
+            {% if error %}
+            <span>{{ error }}</span>
+            {% endif %}
+            <button type="submit">登 录</button>
+            <a href="/register">注册账号</a>
+        </form>
+    </div>
+</body>
+
+</html>

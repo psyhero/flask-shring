@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block tittle %}
+主页
+{% endblock tittle %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock head %}
+
+{% block content %}
+<div class="box1">
+    <div class="left">
+        <p class="title">播放量，全网刷</p>
+        <p class="into">&emsp;&emsp;播放量，全网刷播放量，全网刷播放量，全网刷播放量，全网刷播放量，全网刷播放量，全网刷播放量，全网刷播放量，全网刷播放量，全网刷</p>
+        <div class="get_order">
+            <span>￥&emsp;</span>
+            <span class="price">69.9</span>
+            <a href="/order">
+                <button>下单</button>
+            </a>
+        </div>
+    </div>
+    <div class="right">
+        <video src=""></video>
+    </div>
+</div>
+<div class="box2">
+    <p class="title">产品优势</p>
+</div>
+<div class="box3">
+    <div class="item">
+
+    </div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+<div class="box4">
+    <box class="left">
+        <p class="title">截图</p>
+        <p class="info">&emsp;&emsp;注意文明形象，请勿大声喧哗.注意文明形象，请勿大声喧哗注意文明形象，请勿大声喧哗</p>
+        <div class="place">
+            <button class="btn1">btn1</button>
+            <button class="btn2">btn2</button>
+        </div>
+    </box>
+    <div class="right">
+        <img src="" alt="screenshot">
+    </div>
+</div>
+<div class="box5">
+    <div class="content">
+        <div class="left">
+            <p class="title">底部1</p>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum odit eveniet nemo
+                soluta nihil tempore assumenda, sapiente a itaque hic.</p>
+        </div>
+        <div class="middle">
+            <p class="title">底部2</p>
+            <ul>
+                <li>
+                    <a href="">lable1</a>
+                </li>
+                <li>
+                    <a href="">lable1</a>
+                </li>
+                <li>
+                    <a href="">lable1</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <p class="title">底部1</p>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum odit eveniet nemo
+                soluta nihil tempore
+                assumenda, sapiente a itaque hic.</p>
+        </div>
+    </div>
+    <div class="foot">
+        <a href="/">
+            <img src="" alt="logo">
+        </a>
+        <span class="beian">备案号：xxxxxxxxxxxxxx5555</span>
+    </div>
+</div>
+
+{% endblock content %}

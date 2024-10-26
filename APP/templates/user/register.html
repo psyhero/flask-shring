@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/register.css')}}">
+</head>
+
+<body>
+    <div class="register">
+        <p class="title">注册</p>
+        <form method="post">
+            <input type="email" name="email" placeholder="邮箱" value="{{email}}" required autofocus>
+            <div class="vtf_box">
+                <input type="text" name="vertify" placeholder="验证码" required>
+                <button id="vertify">发送验证码</button>
+            </div>
+            <input type="text" name="username" placeholder="昵称" value="{{username}}" maxlength="12" required>
+            <input type="password" name="password" placeholder="密码" minlength="3" value="{{password}}" required>
+            <p id="error">{{ error }}</p>
+            <button id="submit">注册</button>
+            <a href="/login" id="login"></a>
+        </form>
+    </div>
+
+    <script src="{{url_for('static',filename='js/register.js')}}"></script>
+</body>
+
+</html>

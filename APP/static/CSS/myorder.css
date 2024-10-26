@@ -1,0 +1,135 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.order {
+    border-radius: 14px;
+    background: #fff;
+    padding: 60px;
+    margin: 20px 0;
+}
+
+.order .title {
+    color: purple;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.order ul {
+    display: flex;
+    list-style: none;
+}
+
+.order ul li {
+    margin-right: 20px;
+}
+
+.info {
+    border-radius: 14px;
+    background: #fff;
+    padding: 60px;
+    margin: 20px 0;
+}
+
+.info .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .top .order_num {
+    color: purple;
+}
+
+.info .top button {
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 6px;
+    background: purple;
+}
+
+.info .content {
+    display: flex;
+}
+
+.content .left {
+    width: 700px;
+}
+
+.content .left .date {
+    margin-right: 100px;
+}
+
+.content .right {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 0 -280px;
+}
+
+.content .right .price_box {
+    margin-bottom: 10px;
+}
+
+.content .right .price {
+    color: purple;
+    font-weight: 400;
+}
+
+.content .right button.pay {
+    width: 100px;
+    font-size: 16px;
+    color: #fff;
+    background: purple;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.content .order_add {
+    margin: 80px 0 0 160px;
+}
+
+.content .order_add button {
+    width: 140px;
+    height: 40px;
+    font-size: 21px;
+    color: #fff;
+    background: purple;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer .index {
+    width: 700px;
+    margin: 50px auto 80px auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+footer .index a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer .index a button {
+    width: 24px;
+    height: 28px;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    background: #fcfcfc;
+    cursor: pointer;
+}
+
+footer .index a button.active {
+    color: #fff;
+    background: purple;
+}

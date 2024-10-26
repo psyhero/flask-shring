@@ -1,0 +1,72 @@
+body {
+    background: #eee;
+}
+
+
+.register {
+    width: 400px;
+    margin: 200px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.register .title {
+    font-size: 30px;
+    color: purple;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register input {
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.register form .vtf_box input {
+    width: 268px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.register form .vtf_box button {
+    width: 120px;
+    height: 34px;
+    font-size: 16px;
+    margin: 0;
+    border: 1px solid #bbb;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #bbb;
+    display: inline;
+}
+
+.register p#error {
+    font-size: 14px;
+    color: red;
+}
+
+.register a {
+    color: #666;
+    text-decoration: none;
+    text-align: center;
+}
+
+.register button#submit {
+    width: 400px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    background: purple;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0;
+}
