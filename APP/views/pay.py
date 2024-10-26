@@ -2,7 +2,7 @@
 from flask import Blueprint,request
 
 from ..models import Order
-from ..extentions import alipay
+# from ..extentions import alipay
 
 bpay = Blueprint('pay',__name__)
 

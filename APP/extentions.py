@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail
 from flask_wxpay import WXPay
 
-from .alipay import AlipayModel
+# from .alipay import AlipayModel
 
 pool = ThreadPoolExecutor(max_workers=5)
 
