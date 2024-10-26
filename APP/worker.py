@@ -5,6 +5,7 @@ from flask_mail import Message
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+from .config import MAIL_USERNAME
 from .decorator import save_to_videoplay
 from .extentions import mail,db,pool
 from .models import Order,Proxy,UserAgent,VideoPlay
@@ -12,7 +13,7 @@ from .models import Order,Proxy,UserAgent,VideoPlay
 def vertify_mail(email,vtf_code):
     from APP import create_app
     with create_app().app_context():
-        msg = Message('Flask 邮箱验证码',sender='invidiia@163.com',recipients=[email])
+        msg = Message('Flask 邮箱验证码',sender=MAIL_USERNAME,recipients=[email])
         msg.body = f'Welcome to join Flask.\nHere is your vertications: \n\n{vtf_code}'
         mail.send(msg)
 
